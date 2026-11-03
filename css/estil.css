@@ -3,8 +3,6 @@
   font-family:Sans-serif;
 }
 
-h3 {color:#4F5B93;}
-
 .cap {
   color: #fff;
   background-color:#2C5D4F;
@@ -16,6 +14,16 @@ h3 {color:#4F5B93;}
   display:inline;
   color:white;
   padding: 0 0 0 20px;
+}
+
+.boto{
+    display: inline-block;
+    background-color: #fcba03;
+    color: #ffffff;
+    text-decoration: none;  
+    padding: 12px 30px; 
+    border-radius: 10px; 
+    box-sizing: border-box;
 }
 
 .menu {
@@ -31,18 +39,18 @@ h3 {color:#4F5B93;}
   color: black;
 }
 
-.menu a:hover{font-weight: bold;}
+.menu a:hover{color:#2C5D4F;}
 
 .main {
   text-align:justify;
   border-left: solid 1px #555;
+  border-right: solid 1px #555;
   float: left;
   width: 60%;
-  padding: 0 20px;
+  padding: 20px;
 }
 
 .right {
-  background-color: #333;
   float: left;
   width: 20%;
   height: 100%;
@@ -50,16 +58,17 @@ h3 {color:#4F5B93;}
   text-align: center;
 }
 
+.right h2{color:#2C5D4F;}
+
 .right img {margin: 0 5px;}
 
 .peu{
-    color:#ddd;
-    background-color:#333;
+    background-color:#eee;
     text-align:center;
-    padding:10px;
+    padding:30px 10px;
 }
 
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 720px) {
   /* For mobile phones: */
   .menu, .main, .right {
     width: 100%;
